@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h3>Button</h3>
+        <p>Buttons are of three types
+        <ol>
+            <li><b>Submit</b> <br>
+                <p>used to sumbit form data.</p>
+            </li>
+            <li><b>Reset</b> <br>
+                <p>Reset all form feilds to their default values.</p>
+            </li>
+            <li><b>Normal Button</b>
+                <p>Perform custom actons using JavaScript</p>
+            </li>
+
+        </ol>
+        <ul>
+            <li>If type of button is not specified it is by default a submit button.</li>
+        </ul>
+        </p>
+        <p>we use attribute <b>type</b> to specify button type.</p>
+
+        <p>Submit button inside the form will take data where attribute action tells it to take the data.</p>
+
+        <form action="\server">
+
+            <input type="text" placeholder="Enter Username">
+            <input type="password" placeholder="Enter Password">
+            <input type="number" placeholder="Enter Your Age"><br>
+
+            <button type="button">This is Normal Button</button><br>
+            <button type="submit">Submit</button><br>
+            <button type="reset">Reset</button><br><br>
+
+            <p>We can create button using input element. <br> We specify <b>Type</b> of input as button, and use attribute <b>Value</b> to show description.
+            </p>
+
+            <input type="button" value="This Button is created using Input Element"><br><p>Creating buttons like this is not advisable.</p>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

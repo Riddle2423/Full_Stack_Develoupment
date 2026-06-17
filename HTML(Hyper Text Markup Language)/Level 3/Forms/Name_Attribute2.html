@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attributre other application</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <H3>linking Websites using name attribute</H3>
+        <p>Vising any website, when you look to it's url in different insearch in websites you will be able to find its
+            name attribte.</p>
+
+        <label for="search">Youtube Search</label>
+        <form action="https://www.youtube.com/results">
+            <!--original link: https://www.youtube.com/results?search_query=solo+leveling -->
+            <!-- here search_query is our name attribute -->
+            <input type="text" placeholder="Search" id="search" name="search_query">
+            <!-- What happening here is :
+                    -you use part of url(upto the point where question mark appears, we dont take question mark.
+                    -we take that part and put it in action attribute of form.
+                    -just after the question mark you find name attribute of that url(website).
+                    -we copy name attribute to our form.
+                    -now for will take the input data as search_query = data(in current case), and give this to action attribute 
+                     which makes this a complete url for the search   -->
+
+        </form> <br> <hr>
+
+        <label for="googleSearch">Google Search</label>
+        <form action="https://www.google.com/search">
+            <!-- https://www.google.com/search?q=bmw -->
+             <input type="text" placeholder="Search" id="googleSearch" name="q">
+        </form>
+        <br> <hr>
+        
+        <label for="instaSearch">Instagram Search</label>
+        <form action="https://www.instagram.com/explore/search/keyword/">
+            <!-- https://www.instagram.com/explore/search/keyword/?q=anime%20recommendations -->
+            <input type="text" placeholder="Search" id="instaSearch" name="q">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

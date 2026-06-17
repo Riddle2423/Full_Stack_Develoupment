@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio in input</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form action="/server">
+            Which Book do you want to buy : <br>
+            <input type="radio" name="Book" id="pbook">
+            <label for="pbook">Physics Book</label> <br>
+            <input type="radio" name="Book" id="cbook">
+            <label for="cbook">Chemistry Book</label><br>
+            <input type="radio" name="Book" id="mbook">
+            <label for="mbook">Maths Book</label> <br>
+
+            <button>Submit</button>
+
+            <!-- The url we got, when we checked maths book box and press submit button, is like : file:///C:/server?Book=on -->
+        </form>
+
+        <p>To group all the input raido boxes you have to give them exactly same <b>Name</b> <br> Why we group them ? : if we don't group them all of the checkBoxes can be checked together. Which is not our goal, our goal is to check 1 box at a time.</p>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

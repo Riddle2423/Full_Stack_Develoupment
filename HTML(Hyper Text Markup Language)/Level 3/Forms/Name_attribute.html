@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attribute</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h3>Name Attribute</h3>
+        <p>The `name` attribute is used inside the `input` tag. <br>
+            It gives the input field (the place where the user enters data) a name, so the data can be identified by
+            that name when the form is submitted.
+        </p><br>
+
+        <p>Without Name attribute data is usually not sent to the server.</p>
+
+
+        <label for="username">Username</label>
+        <form action="/server">
+            <input type="text" placeholder="Username" id="Username" name="Username">
+            <button>Submit</button>
+        </form><br>
+
+        <p>Now when clicking on submit button see the url where the data is being sent.</p>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
