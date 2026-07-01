@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    text-decoration: line-through;
+}
+
+h5{
+    text-decoration: brown underline;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
