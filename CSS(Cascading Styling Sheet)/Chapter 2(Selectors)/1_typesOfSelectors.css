@@ -1,0 +1,47 @@
+
+/* This is a Universal Selector : It applies styling on whole of the document from which it is linked to.
+    syntax :    *{ ___... }                                                                            */
+* {
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* This type of selectors are "Element Selector" : it selects app styling to all the elements of same type at once*/
+h1 {
+    color: #b92b27 ;
+}
+
+
+
+ /* This is an 'id selector' it selects specific element for styling, it selects an element based on the value of element's id attribute(like we used in forms and labels).
+    syntax for id selector : #id { ___... }   */
+#login {
+   
+    background-color: white;
+}
+
+ /* This is also an "Id Selector" */
+#signup {
+   
+    color: white;
+
+    background-color: #b92b27;
+}
+
+
+/*  If i have to put same styling on more than one elements(can be same or different) simultaneously, i use class selector.
+    in html we have class attribute for tags, and in css to use class selector we have syntax : .className{___ . . .} 
+    i just have to assign same class name to all elements of intrest and then use class selector to give styling to all the elements of intrest at once.  */
+.upvote {
+    background-color: beige;
+}
+
+/* "A descendant selector selects all matching child elements that are inside a parent element, whether they are direct children or nested deeper."
+    It selects all matching elements that are present anywhere inside a specified parent element. 
+    syntax : parentElmenet childElement{ ____... }
+    We also can use className(like :  .className a{ ___.. } ) instead of parentElement */
+p a{
+    color: purple;
+}
