@@ -46,7 +46,7 @@ p a {
 }
 
 /* Attribiute Selector : Select elements based on the value of attribute.
-   syntax : input[Attribute = "Value"] { Key = Value }   */
+   syntax : Tag[Attribute = "Value"] { Key = Value }   */
 input[type="text"] {
     background-color: black;
     color: white;
