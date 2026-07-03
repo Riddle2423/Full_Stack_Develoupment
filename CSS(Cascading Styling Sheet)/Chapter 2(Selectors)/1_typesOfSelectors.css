@@ -1,4 +1,3 @@
-
 /* This is a Universal Selector : It applies styling on whole of the document from which it is linked to.
     syntax :    *{ ___... }                                                                            */
 * {
@@ -10,21 +9,21 @@
 
 /* This type of selectors are "Element Selector" : it selects app styling to all the elements of same type at once*/
 h1 {
-    color: #b92b27 ;
+    color: #b92b27;
 }
 
 
 
- /* This is an 'id selector' it selects specific element for styling, it selects an element based on the value of element's id attribute(like we used in forms and labels).
+/* This is an 'id selector' it selects specific element for styling, it selects an element based on the value of element's id attribute(like we used in forms and labels).
     syntax for id selector : #id { ___... }   */
 #login {
-   
+
     background-color: white;
 }
 
- /* This is also an "Id Selector" */
+/* This is also an "Id Selector" */
 #signup {
-   
+
     color: white;
 
     background-color: #b92b27;
@@ -42,6 +41,13 @@ h1 {
     It selects all matching elements that are present anywhere inside a specified parent element. 
     syntax : parentElmenet childElement{ ____... }
     We also can use className(like :  .className a{ ___.. } ) instead of parentElement */
-p a{
+p a {
     color: purple;
+}
+
+/* Attribiute Selector : Select elements based on the value of attribute.
+   syntax : input[Attribute = "Value"] { Key = Value }   */
+input[type="text"] {
+    background-color: black;
+    color: white;
 }
